@@ -97,7 +97,7 @@ function afficherLivres(i) {
   statutL.className = "book-status";
   statutL.textContent = `Statut: ${livres[i].statut}`;
   cardLivre.appendChild(statutL);
-  
+ 
   const supprimerBtn = document.createElement("button");
   supprimerBtn.className = "delete-button";
   supprimerBtn.textContent = "Supprimer";
